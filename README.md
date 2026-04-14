@@ -19,7 +19,7 @@ Implemented in embedded C++ for ESP32 with PlatformIO.
 | SDA  | GPIO 21 |
 | SCL  | GPIO 22 |
 
----s
+---
 
 ## Installation
 
