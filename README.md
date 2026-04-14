@@ -32,10 +32,9 @@ Copy the `SSD1306/` folder into your project's `lib/` directory (PlatformIO) or 
 ```cpp
 #include "SSD1306_driver.hpp"
 
-Display* display = nullptr;
+Display display(0x3C);
 
 void setup() {
-    display = new Display(0x3C);
     display->init();
 }
 
